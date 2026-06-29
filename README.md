@@ -120,31 +120,6 @@ MultiModal-Interface/
 
 The `Graph/` folder contains the full FSM state transition diagram showing how speech, pointing, and gesture inputs are combined and filtered.
 
----
-
-## Requirements Fulfilled
-
-### Mandatory (50P)
-
-| ID | Requirement | Status |
-|----|-------------|--------|
-| M6 | Application set up on WhiteLab workstation | Done |
-| M7 | Application free of major bugs/crashes | Done |
-| M8 | Unity 2021.3.11f1 + Meta Quest 2; create/select/move/delete objects | Done |
-| M9 | Multimodal fusion: unimodal speech + multimodal speech+point commands | Done |
-| M10 | Semantic integration calling correct application function | Done |
-
-### Optional (50P)
-
-| ID | Requirement | Points |
-|----|-------------|--------|
-| O1c | General-purpose FSM fusion method, processes each input as it occurs | 10P |
-| O1e3 | Probabilistic + chronologically unsorted input → probabilistic output | 15P |
-| O1e4 | Debug tool: visualizes FSM processing state + performance metrics | 10P |
-| O1e5 | Continuous user feedback after each input | 5P |
-| O2e2 | Semantic integration filters invalid commands (e.g., "move it" with no selection) | 10P |
-| O3 | Additional property: color change + shoot/fall | 5P |
-| O5 | Gesture input: rotate object via controller rotation gesture | 5P |
 
 ---
 
